@@ -1,0 +1,79 @@
+.bg-e8{
+    background-color: #e8e8e8;
+}
+
+.shadow-form{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.border-small{
+    border-width: 1px;
+}
+
+@keyframes loading {
+    0%{
+        transform: scale(1, 1);
+    }
+
+    50%{
+        transform: scale(5, 5);
+    }
+ 
+    100%{
+        transform: scale(1,1);
+    }
+
+}
+
+.ball{
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.delay250{
+    animation-delay: 250ms;
+}
+
+.delay500{
+    animation-delay: 500ms;
+}
+
+.productsBox{
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+/* .prodImg{
+    aspect-ratio: 3/2;
+    object-fit: contain;
+} */
+
+.text-red{
+    color: #ff5964;
+}
+
+.bg-red{
+    background-color: #ff5964;
+}
+
+.bg-00BFB3{
+    background-color: #00BFB3;
+}
+
+.customColor{
+    background: linear-gradient(to bottom, #59A5D8 0%, #84D2F6 35%, transparent 35%, transparent 100%);
+}
+.shadow{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.shadowImg{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color: #FFFCF9;
+}
+
+.nameShadow{
+    filter: drop-shadow(0px 0.1px 9px #555555);
+}
