@@ -82,7 +82,7 @@ export default function Products() {
                 {products.map((product, index )=> {
                     return (
                         <div className='w-5/12 sm:w-3/12 sm:h-72 sm:rounded-md h-40 bg-white flex flex-col items-center rounded-sm gap-2 productsBox overflow-y-auto
-                        hover:scale-105 duration-700'
+                        hover:scale-105 duration-700 p-2'
                         key={index}>
                             <Link className='w-full flex flex-col items-center justify-start'
                             to={`/products/${index + 1}`}>
